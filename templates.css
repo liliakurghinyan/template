@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+.nav{
+    
+}
+.navbar{
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 0 2px 0 black;
+}
+.br{
+    display: inline-block;
+    padding: 5px;
+    word-spacing: 5px;
+    transform: translate(25px, 10px);
+    background-color: white;
+    font-family: sans-serif;
+}
+a{
+    display: inline-block;
+    font-size: 20px;  
+    padding: 5px 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black ;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navhrefs{
+    transform: translate(1300px, -15px);
+}
+a:hover{
+    background-color: grey;
+}
+.br:hover{
+    background-color: grey;
+}
+.section{
+    transform: translate(50px, 0);
+}
+.photo {
+  
+    width: 1500px;
+    height: 750px;
+    background-image: url(architect.jpg);
+}
+.br1{
+    width: 87px;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translate(550px, 300px);
+}
+.brtext{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    text-align: center;
+    transform: translateY(5px);
+}
+.sometext{
+    font-size: 40px;
+    color: rgba(255, 255, 255, );
+    transform: translate(650px, 245px);
+}
+.projects{
+    margin-top: 50px;
+    font-size: 25px;
+    color: gray;
+}
+.houses{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.house{
+    width: 363px;
+    height: 242px ;
+  margin: 0 8px ;
+}
+.house2 {
+    background-image: url(house2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.summerhouse{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    font-style: italic;
+}
+.house3 {
+    background-image: url(house3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.summerhouse{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    font-style: italic;
+}
+.house4 {
+    background-image: url(house4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.summerhouse{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    font-style: italic;
+}
+.house5 {
+    background-image: url(house5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.summerhouse{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    font-style: italic;
+}
+.houses2{
+    transform: translateY(-30px);
+}
+.about{
+    font-size: 20px;
+}
+.lorem{
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+.teams{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    width: 363px;
+    height: 242px ;
+  margin: 0 8px ;
+}
+.team1 {
+    background-image: url(team1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.team2 {
+    background-image: url(team2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.team3 {
+    background-image: url(team3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.team4 {
+    background-image: url(team4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
